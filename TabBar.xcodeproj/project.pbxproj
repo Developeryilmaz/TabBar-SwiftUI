@@ -11,6 +11,12 @@
 		022160202A1B3EA700114926 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0221601F2A1B3EA700114926 /* ContentView.swift */; };
 		022160222A1B3EA800114926 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 022160212A1B3EA800114926 /* Assets.xcassets */; };
 		022160262A1B3EA800114926 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 022160252A1B3EA800114926 /* Preview Assets.xcassets */; };
+		0221602F2A1B3F3B00114926 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0221602E2A1B3F3B00114926 /* Media.xcassets */; };
+		022160312A1B3F4900114926 /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 022160302A1B3F4900114926 /* Color.xcassets */; };
+		022160342A1B3F8A00114926 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022160332A1B3F8A00114926 /* Tab.swift */; };
+		022160362A1B40D300114926 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022160352A1B40D300114926 /* HomeView.swift */; };
+		022160382A1B4EDE00114926 /* TabShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022160372A1B4EDE00114926 /* TabShape.swift */; };
+		0221603C2A1B860800114926 /* TabPositionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0221603B2A1B860800114926 /* TabPositionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		022160212A1B3EA800114926 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		022160232A1B3EA800114926 /* TabBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TabBar.entitlements; sourceTree = "<group>"; };
 		022160252A1B3EA800114926 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0221602E2A1B3F3B00114926 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		022160302A1B3F4900114926 /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		022160332A1B3F8A00114926 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		022160352A1B40D300114926 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		022160372A1B4EDE00114926 /* TabShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabShape.swift; sourceTree = "<group>"; };
+		0221603B2A1B860800114926 /* TabPositionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPositionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +65,9 @@
 			isa = PBXGroup;
 			children = (
 				0221601D2A1B3EA700114926 /* TabBarApp.swift */,
-				0221601F2A1B3EA700114926 /* ContentView.swift */,
-				022160212A1B3EA800114926 /* Assets.xcassets */,
+				022160322A1B3F6E00114926 /* Model */,
+				0221602D2A1B3F1900114926 /* Views */,
+				0221602C2A1B3EFF00114926 /* Assets */,
 				022160232A1B3EA800114926 /* TabBar.entitlements */,
 				022160242A1B3EA800114926 /* Preview Content */,
 			);
@@ -67,6 +80,35 @@
 				022160252A1B3EA800114926 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0221602C2A1B3EFF00114926 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				022160212A1B3EA800114926 /* Assets.xcassets */,
+				0221602E2A1B3F3B00114926 /* Media.xcassets */,
+				022160302A1B3F4900114926 /* Color.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		0221602D2A1B3F1900114926 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0221601F2A1B3EA700114926 /* ContentView.swift */,
+				022160352A1B40D300114926 /* HomeView.swift */,
+				022160372A1B4EDE00114926 /* TabShape.swift */,
+				0221603B2A1B860800114926 /* TabPositionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		022160322A1B3F6E00114926 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				022160332A1B3F8A00114926 /* Tab.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +170,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				022160262A1B3EA800114926 /* Preview Assets.xcassets in Resources */,
+				022160312A1B3F4900114926 /* Color.xcassets in Resources */,
+				0221602F2A1B3F3B00114926 /* Media.xcassets in Resources */,
 				022160222A1B3EA800114926 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,8 +183,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				022160342A1B3F8A00114926 /* Tab.swift in Sources */,
+				022160362A1B40D300114926 /* HomeView.swift in Sources */,
 				022160202A1B3EA700114926 /* ContentView.swift in Sources */,
 				0221601E2A1B3EA700114926 /* TabBarApp.swift in Sources */,
+				022160382A1B4EDE00114926 /* TabShape.swift in Sources */,
+				0221603C2A1B860800114926 /* TabPositionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +317,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -279,7 +328,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
@@ -287,7 +336,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = markizapp.TabBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,6 +358,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -317,7 +369,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
@@ -325,7 +377,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = markizapp.TabBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
